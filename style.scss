@@ -1,0 +1,101 @@
+@font-face {
+  font-family: Curesedtimer;
+  src: url(./fonts/CursedTimerULiL.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #111827;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #8b5cf6;
+  width: 50em;
+  height: 40em;
+  button.button {
+    outline: none;
+    border: 1px solid #394052;
+    background-color: transparent;
+    padding: 0.5em;
+    margin: 0 0.2em;
+  }
+}
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #34d399;
+  width: 200px;
+  height: 200px;
+  div.score-bg {
+    background-color: #090001;
+    width: 8em;
+    height: 6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  span#home-score {
+    font-family: "Curesedtimer", sans-serif;
+    color: #ff4d6c;
+    font-size: 5rem;
+    margin-top: 0.2em;
+  }
+  .btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 5em;
+    height: 2em;
+    margin-top: 1em;
+  }
+} //home-container ends
+.guest-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #38bdf8;
+  width: 200px;
+  height: 200px;
+  div.score-bg {
+    background-color: #090001;
+    width: 8em;
+    height: 6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  span#guest-score {
+    font-family: "Curesedtimer", sans-serif;
+    color: #ff4d6c;
+    font-size: 5rem;
+    margin-top: 0.2em;
+  }
+  .btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 5em;
+    height: 2em;
+    margin-top: 1em;
+  }
+}
