@@ -2,36 +2,38 @@
 let homeScore = document.getElementById("home-score");
 let guestScore = document.getElementById("guest-score");
 let resetBtn = document.getElementById("reset-btn");
-let score = 0;
+let scoreHome = 0;
+let scoreGuest = 0;
 
 function scoreIncrementByOne() {
-  score += 1;
-  homeScore.textContent = score;
+  scoreHome += 1;
+  homeScore.textContent = scoreHome;
 }
 function scoreIncrementByTwo() {
-  score += 2;
-  homeScore.textContent = score;
+  scoreHome += 2;
+  homeScore.textContent = scoreHome;
 }
 function scoreIncrementByThree() {
-  score += 3;
-  homeScore.textContent = score;
+  scoreHome += 3;
+  homeScore.textContent = scoreHome;
 }
 // Home Score ends
 // Guest Score Functions
 function guestScoreIncrementByOne() {
-  score += 1;
-  guestScore.textContent = score;
+  scoreGuest += 1;
+  guestScore.textContent = scoreGuest;
 }
 function guestScoreIncrementByTwo() {
-  score += 2;
-  guestScore.textContent = score;
+  scoreGuest += 2;
+  guestScore.textContent = scoreGuest;
 }
 function guestScoreIncrementByThree() {
-  score += 3;
-  guestScore.textContent = score;
+  scoreGuest += 3;
+  guestScore.textContent = scoreGuest;
 }
 function resetScore() {
-  score = 0;
+  scoreHome = 0;
+  scoreGuest = 0;
   homeScore.textContent = 0;
   guestScore.textContent = 0;
 }
