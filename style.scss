@@ -35,6 +35,13 @@ body {
     background-color: transparent;
     padding: 0.5em;
     margin: 0 0.2em;
+    &:hover {
+      background-color: #f43f5e;
+      color: #f3f4f6;
+    }
+  }
+  button#reset-btn {
+    background-color: #fbbf24;
   }
 }
 .home-container {
