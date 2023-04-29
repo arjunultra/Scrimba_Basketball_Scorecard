@@ -44,16 +44,37 @@
           <span id="guest-score">0</span>
         </div>
         <div class="btn-container">
-          <button class="button" id="guest-btn-plus-one">+1</button>
-          <button class="button" id="guest-btn-plus-two">+2</button>
-          <button class="button" id="guest-btn-plus-three">+3</button>
+          <button
+            class="button"
+            onclick="guestScoreIncrementByOne()"
+            id="guest-btn-plus-one"
+          >
+            +1
+          </button>
+          <button
+            class="button"
+            onclick="guestScoreIncrementByTwo()"
+            id="guest-btn-plus-two"
+          >
+            +2
+          </button>
+          <button
+            class="button"
+            onclick="guestScoreIncrementByThree()"
+            id="guest-btn-plus-three"
+          >
+            +3
+          </button>
         </div>
       </div>
       <!-- Reset button -->
       <div class="extras-container">
-        <button class="button" id="reset-btn">Reset</button>
+        <button class="button" id="reset-btn" onclick="resetScore()">
+          Reset
+        </button>
       </div>
     </div>
+
     <script src="./main.js"></script>
   </body>
 </html>
